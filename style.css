@@ -1,0 +1,63 @@
+/* タイピングゲーム全体 */
+body{
+  font-size: 4em;
+  text-align: center;
+  margin: 0;
+}
+
+/* ゲームの残り秒数が表示されるタイマーの領域 */
+.count{
+  margin: 0;
+  font-weight: bold;
+  color: #888;
+}
+
+/* テキストが表示される領域 */
+.wrap{
+  margin-top: 5px;
+  padding: 80px 40px;
+  background-color: #666;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* 正しくタイプされた場合のテキスト */
+.typed{
+  color: lightgreen;
+}
+
+/* ミスタイプの場合の背景 */
+.mistyped{
+  background-color: red;
+}
+
+/* タイプ数の表示 */
+.wordCount{
+  font-weight: bold;
+  margin: 0;
+}
+
+
+.score {
+  display:flex;
+  margin: 0;
+}
+
+.score > p {
+  margin: 0 40px;
+}
+
+.mistype {
+  display:flex;
+  text-align: right;
+  margin: 0;
+}
+
+.mistype > p {
+  margin: 0 40px;
+}
+
+/* 15連続ミスタイプなし */
+.correct1{
+  background-color: lightblue;
+}
